@@ -1,0 +1,20 @@
+[
+    {
+        "groupId": 1,
+        "groupName": "Wakulla Warriors",
+        "members": [100, 200, 434, 2343, 122, 345],
+        "groupImgSrc": "/src/assets/white-wolf-in-the-wild.jpg"
+    },
+    {
+        "groupId": 2,
+        "groupName": "End Mass Incarceration",
+        "members": [100, 200, 434, 2343, 122, 345, 999, 1232, 4232, 23432],
+        "groupImgSrc": "/src/assets/skull-scary-halloween-makeup.jpg"
+    },
+    {
+        "groupId": 3,
+        "groupName": "End Mass Incarceration",
+        "members": [],
+        "groupImgSrc": "/src/skull-scary-halloween-makeup.jpg"
+    }
+]

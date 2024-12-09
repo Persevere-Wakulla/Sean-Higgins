@@ -1,0 +1,73 @@
+{
+  "user": [
+    {
+      "userName": "johnd",
+      "friends": []
+    },
+    {
+      "userName": "isleepstandingup",
+      "friends": [
+        {
+          "user": "That Bitch Jeanette",
+          "image": "src/assets/image-jeanette.jpg"
+        },
+        {
+          "user": "Dontcha Wish Kira",
+          "image": "src/assets/image-kira.jpg"
+        },
+        {
+          "user": "Patrick I'm not Lonely",
+          "image": "src/assets/image-patrick.jpg"
+        },
+        {
+          "user": "That Bitch Jeanette",
+          "image": "src/assets/image-jeanette.jpg"
+        },
+        {
+          "user": "Dontcha Wish Kira",
+          "image": "src/assets/image-kira.jpg"
+        },
+        {
+          "user": "Patrick I'm not Lonely",
+          "image": "src/assets/image-patrick.jpg"
+        },
+        {
+          "user": "That Bitch Jeanette",
+          "image": "src/assets/image-jeanette.jpg"
+        },
+        {
+          "user": "Dontcha Wish Kira",
+          "image": "src/assets/image-kira.jpg"
+        },
+        {
+          "user": "Patrick I'm not Lonely",
+          "image": "src/assets/image-patrick.jpg"
+        },
+        {
+          "user": "That Bitch Jeanette",
+          "image": "src/assets/image-jeanette.jpg"
+        },
+        {
+          "user": "Dontcha Wish Kira",
+          "image": "src/assets/image-kira.jpg"
+        },
+        {
+          "user": "Patrick I'm not Lonely",
+          "image": "src/assets/image-patrick.jpg"
+        },
+        {
+          "user": "That Bitch Jeanette",
+          "image": "src/assets/image-jeanette.jpg"
+        },
+        {
+          "user": "Dontcha Wish Kira",
+          "image": "src/assets/image-kira.jpg"
+        },
+        {
+          "user": "Patrick I'm not Lonely",
+          "image": "src/assets/image-patrick.jpg"
+        }
+      ]
+    }
+  ]
+}

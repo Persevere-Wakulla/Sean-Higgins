@@ -1,0 +1,57 @@
+[
+    {
+        "userId": 100,
+        "picSrc": "/src/assets/default.jpg",
+        "firstName": "Sean",
+        "lastName": "Higgins",
+        "city": "Jacksonville",
+        "state": "FL",
+        "bio": "This is just about me and all my wonderful things that I do in my life. Now I will do all of these cool things like going to Colorado, learning new programming techniques. Maybe moving to Arizona soon who knows",
+        "relationshipStatus": "Single",
+        "friends": 48,
+        "friend": [200,111,666],
+        "backgroundSrc": "/src/assets/camping/wooden-cabin-in-the-wilderness-among-forest-trees.jpg"
+    },
+    {
+        "userId": 200,
+        "firstName": "Jeanette",
+        "lastName": "Walker",
+        "city": "Jacksonville",
+        "state": "FL",
+        "picSrc": "/src/assets/image-jeanette.jpg",
+        "bio": "I'm that woman, what can I say, don't hate, appreciate. Make sure to like my videos and pictures.",
+        "relationshipStatus": "It's Complicated",
+        "friends": 654,
+        "friend": [100,111,666],
+        "isPublic": true,
+        "backgroundSrc": "/src/assets/camping/scuba_dive_asthma_1296x728_header-1024x575.webp"
+    },
+    {
+        "userId": 111,
+        "firstName": "Kira",
+        "lastName": "Macklin",
+        "city": "Jacksonville",
+        "state": "FL",
+        "picSrc": "/src/assets/image-kira.jpg",
+        "bio": "I'm taken, and happy, so don't even try it. My man is amazing. Spread love not hate, I attract abundance into my life, and am divinely guided.",
+        "relationshipStatus": "In a relationship",
+        "friends": 333,
+        "friend": [100,200,666],
+        "isPublic": true,
+        "backgroundSrc": "/src/assets/camping/dog-in-lifejacket.jpg"
+    },
+    {
+        "userId": 666,
+        "firstName": "Patrick",
+        "lastName": "Macklin",
+        "city": "Wakulla",
+        "state": "FL",
+        "picSrc": "/src/assets/image-patrick.jpg",
+        "bio": "Hey, I like to hang out and have fun, you should add me... please, no lol, I'm just kidding, but yeah... you should add me.",
+        "relationshipStatus": "Single",
+        "friends": 2,
+        "friend": [100,111],
+        "isPublic": true,
+        "backgroundSrc": "/src/assets/camping/a-small-green-bird-sits-on-thin-branch-in-a-green-tree.jpg"
+    }
+]

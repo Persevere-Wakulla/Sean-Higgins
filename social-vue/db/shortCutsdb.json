@@ -1,0 +1,23 @@
+[
+    {
+        "userId": 100,
+        "shortcutId": 1,
+        "shortcutName": "Journey Across America",
+        "shortcutPage": 323,
+        "shortcutCover": "/src/assets/camping/compass-maritime.jpg"
+    },
+    {
+        "userId": 100,
+        "shortcutId": 2,
+        "shortcutName": "Deepwater exploring",
+        "shortcutPage": 789,
+        "shortcutCover": "/src/assets/camping/diving-underwater-suba.png"
+    },
+    {
+        "userId": 100,
+        "shortcutId": 3,
+        "shortcutName": "Beauty in the Wild",
+        "shortcutPage": 789,
+        "shortcutCover": "/src/assets/camping/vibrant-red-and-blue-bird-on-a-branch.jpg"
+    }
+]

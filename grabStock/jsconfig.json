@@ -1,0 +1,4 @@
+{
+  "compilerOptions": { "target": "es6", "module": "commonjs", "lib": ["es6"] },
+  "include": ["./**/*.js", "main.js"]
+}

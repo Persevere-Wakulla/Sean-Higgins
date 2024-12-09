@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: palegreen;
+    overflow: hidden;
+}
+
+img {
+    position: relative;
+    z-index: 1;
+}
+
+svg {
+    z-index: 2;
+}
+
+.game-board {
+    height: 100vh;
+    width: inherit;
+    background: linear-gradient( hsl(105, 54%, 19%), hsl(124, 60%, 36%));
+    border-radius: 50px;
+    border: 10px solid hsl(106, 38%, 15%);
+    box-shadow: inset 8px 4px 4px hsl(100, 4%, 15%),
+    4px 4px 4px black;
+    padding: 2rem;
+}
+
+.game-controls {
+    position: absolute;
+    padding: 2rem;
+}
+
+.game-btn {
+    opacity: .25;
+}
+
+.game-btn:hover {
+    opacity: 1;
+}
+
+.bet-btn {
+    background-color: rgb(179, 104, 29);
+    color:hsl(0, 0%, 12%);
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px black;
+    padding: .5rem;
+    opacity: .25;
+    transition: all .5s;
+}
+
+.bet-btn:hover {
+    opacity: 1;
+}
+
+.bet-btn > img {
+cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.gap {
+    gap: 1rem;
+}
+
+.full-width {
+    width: 100%;
+    height: 100%;
+}
+
+.full-width-bg {
+    height: 100vh;
+    padding: 0 2rem;
+    background: linear-gradient(hsl(0, 30%, 47%),hsl(0, 0%, 12%));
+}
+
+.current-bet {
+    background-color: hsl(206, 53%, 32%);
+    border-radius: 4px;
+    width: 100%;
+    padding: .5rem 2rem;
+    box-shadow: 0 16px 32px black;
+    color: goldenrod;
+}
+
+.card-size {
+    width: 40px;
+    box-shadow: 0 2px 2px hsl(100, 4%, 15%);
+}
+
+.card-holder {
+    position: relative;
+}
+
+.default-card.deck {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.default-card {
+    position: relative;
+    width: 40px;
+    height: 58px;
+    border: 2px solid rgb(54, 17, 17);
+    border-radius: 4px;
+    background-image: url(./cards/skulls-and-bones-in-darkness.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 2px hsl(100, 4%, 15%);
+    z-index: 1;
+}
+
+@keyframes replaceChips {
+    0% {
+        transform: translateX(800%) translateY(0);
+    }
+    100% {
+        transform: translateX(0) translateY(-200%);
+    }
+}
+
+@keyframes tossChips {
+    0% {
+        transform: translateY(600%) rotate(-1.5turn);}
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes drawCardTop {
+    0%{
+        transform: translateY(250%) rotate(-0.5turn);
+    }
+    100%{ 
+        transform: translateY(0);
+    }
+}
+@keyframes drawCardBottom {
+    0%{
+        transform: translateY(-600%) rotate(-0.15turn);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes flipCard {
+    0%{
+        transform: rotateY(90deg);
+    }
+    100% {
+        transform: rotateY(0);
+    }
+}
+
+.default-card-inner {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid rgba(159, 46, 46, 0.241);
+    border-radius: 4px;
+}
+
+.default-card.hidden {
+    display: none;
+}
+
+.game-btn {
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    padding: .5rem 2rem;
+    background-color: hsl(206, 53%, 32%);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px hsl(100, 4%, 15%);
+    transition: all 1s;
+}
+.hit-btn:hover,
+.game-btn:hover {
+    opacity: 1;
+    user-select: none;
+}
+
+.hit-btn {
+    opacity: .25;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    padding: .5rem 2rem;
+    background-color: hsl(0, 0%, 12%);
+    color:rgb(179, 104, 29);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px hsl(100, 4%, 15%);
+    transition: all 1s;
+}
+
+.hidden {
+    display: none;
+}
+
+.computer-side-outer {
+    height: 50%;
+    padding: .5rem;
+    border:solid 2px rgba(16, 28, 19, 0.593);
+    box-shadow: 0 2px 2px hsla(100, 4%, 15%, 0.581);
+    border-radius: 4px 4px 50% 50%;
+    margin-bottom: 2rem;;
+}
+.computer-side {
+    height: 100%;
+    padding: .5rem;
+    border:solid 2px rgba(16, 28, 19, 0.593);
+    box-shadow: 0 2px 2px hsla(100, 4%, 15%, 0.581);
+    border-radius: 4px 4px 50% 50%;
+}
+
+.player-side {
+    position: relative;
+}
+
+.betting-area {
+    position: absolute;
+    padding: .5rem;
+    width: 100%;
+    height: 50%;
+    top: 30%;
+    border:solid 2px rgba(16, 28, 19, 0.593);
+    box-shadow: inset 0 2px 2px hsla(100, 4%, 15%, 0.581);
+    border-radius: 50% 50% 4px 4px;
+}
+
+
+
+.betting-area-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    justify-content: center;
+    border:solid 2px rgba(16, 28, 19, 0.593);
+    box-shadow: inset 0 2px 2px hsla(100, 4%, 15%, 0.581);
+    border-radius: 50% 50% 4px 4px;
+}
+
+.betting-player-area {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-height: 60px;
+    max-width: 30px;
+    border: 1px solid rgba(255, 255, 0, 0.485);
+    border-top: 6px solid rgba(255, 255, 0, 0.485);
+    box-shadow: inset 0 2px 4px rgb(66, 68, 42);
+    border-radius: 4px;
+}
+
+.betting-player-area-text {
+    font-size: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgba(224, 219, 215, 0.469);
+    position: absolute;
+    bottom: 38%;
+    left: -13px;
+    transform: rotate(-.2turn);
+}
+.betting-player-area-text.reverse {
+    transform: rotate(.2turn);
+}
+
+.betting-gap {
+    gap: 0 3rem;
+}
+
+.betting-player-area:nth-child(1){
+    transform: rotate(40deg) translateY(-10%) translateX(-50%);
+}
+.betting-player-area:nth-child(4){
+    transform: rotate(-40deg) translateY(-10%) translateX(50%);
+}
+
+.chips {
+    position: absolute;
+    bottom: -7%;
+    right: 47%;
+}
+
+.chip {
+    cursor: pointer;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    z-index: 100;
+}
+
+.chip > p {
+    user-select: none;
+    position: absolute;
+    color: red;
+    font-size: 8px;
+    font-weight: 800;
+    top: 25%;
+    left: 30%;
+}
+
+.chip.hundred > p {
+    color: rgb(32, 38, 99);
+    font-weight: 800;
+    left: 18%;
+}
+
+.chip.hundred > svg {
+    fill: hsl(22, 83%, 49%);
+}
+
+.chip-gap {
+    gap: .5rem;
+}
+
+.reverse-arrow {
+    transform: rotate(180deg);
+}

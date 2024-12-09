@@ -1,0 +1,98 @@
+[
+  {
+    "projectId": 1,
+    "chargeCodeId": 1,
+    "code": "123_governor",
+    "descr": "governor only",
+    "hours": 489.5,
+    "originalHours": 500,
+    "additionalHours": 35,
+    "rate": 625,
+    "createdOn": "",
+    "updatedOn": ""
+  },
+  {
+    "projectId": 1,
+    "chargeCodeId": 2,
+    "code": "Misc_bucket",
+    "descr": "General Bucket for everything",
+    "hours": 440.5,
+    "originalHours": 500,
+    "additionalHours": 0,
+    "rate": 400,
+    "createdOn": "",
+    "updatedOn": ""
+  },
+  {
+    "projectId": 1,
+    "chargeCodeId": 3,
+    "code": "Proj-Dirt",
+    "descr": "Dirt Project Bucket",
+    "hours": 446.75,
+    "originalHours": 500,
+    "additionalHours": 7,
+    "rate": 700,
+    "createdOn": "",
+    "updatedOn": ""
+  },
+  {
+    "projectId": 1,
+    "chargeCodeId": 4,
+    "code": "JCole",
+    "descr": "Coal proj",
+    "hours": 470.5,
+    "originalHours": 500,
+    "additionalHours": 0,
+    "rate": 600,
+    "createdOn": "",
+    "updatedOn": ""
+  },
+  {
+    "id": "c5ab3501-ec98-4a97-9eca-5e551ea4e89b",
+    "projectId": 1,
+    "chargeCodeId": 5,
+    "code": "thomas_ville_makes_bagel",
+    "hours": 1335.5,
+    "originalHours": 500,
+    "rate": 503,
+    "additionalHours": 200,
+    "descr": "default bucket for everything",
+    "createdOn": "2024-08-12T15:29:19.272Z",
+    "updatedOn": "2024-08-12T15:29:45.380Z"
+  },
+  {
+    "id": "9a70904b-b8e0-4f7e-b163-8923eb6ba3ad",
+    "projectId": 1,
+    "chargeCodeId": 6,
+    "code": "hehe",
+    "hours": 850,
+    "originalHours": 500,
+    "rate": 546,
+    "additionalHours": 0,
+    "descr": "my funny descr",
+    "createdOn": "2024-08-13T17:51:29.430Z"
+  },
+  {
+    "id": "281a23f5-c8cf-4a4a-bf8d-4690638de651",
+    "projectId": 1,
+    "chargeCodeId": 7,
+    "code": "keke",
+    "hours": 4564,
+    "originalHours": 500,
+    "rate": 354,
+    "additionalHours": 0,
+    "descr": "ksks",
+    "createdOn": "2024-08-13T17:56:53.955Z"
+  },
+  {
+    "id": "e4888e19-781b-4ca0-b292-d15ca2639d54",
+    "projectId": 1,
+    "chargeCodeId": 8,
+    "code": "Testing",
+    "hours": 600,
+    "rate": 404,
+    "additionalHours": 0,
+    "descr": "My Test is this",
+    "createdOn": "2024-08-19T16:06:43.108Z"
+  }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "medicalId": 1,
+        "name": "Humana 500",
+        "hasDeductable": true,
+        "monthlyCost": 200,
+        "spouseCost": 100,
+        "dependentsCost": 75,
+        "copayments": {
+            "primaryCare": 15,
+            "specialist": 50,
+            "outOfNetwork": 75
+        },
+        "deductibleAmount": 500,
+        "descr": "Humana 500 has you and your family covered for all your needs",
+        "benefitsDetails": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum debitis, sit iusto alias magni illum sed sequi labore aliquam sint, blanditiis officia consequuntur eius! Recusandae possimus laudantium in alias? Cumque."
+    },
+    {
+        "medicalId": 2,
+        "name": "Humana 1000",
+        "hasDeductable": true,
+        "monthlyCost": 150,
+        "spouseCost": 80,
+        "dependentsCost": 55,
+        "copayments": {
+            "primaryCare": 40,
+            "specialist": 150,
+            "outOfNetwork": 200
+        },
+        "deductibleAmount": 1000,
+        "descr": "Humana 1000 has you and your family covered for all your needs",
+        "benefitsDetails": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum debitis, sit iusto alias magni illum sed sequi labore aliquam sint, blanditiis officia consequuntur eius! Recusandae possimus laudantium in alias? Cumque."
+    },
+    {
+        "medicalId": 3,
+        "name": "BC/BS Copay",
+        "hasDeductable": false,
+        "monthlyCost": 215,
+        "spouseCost": 80,
+        "dependentsCost": 40,
+        "copayments": {
+            "primaryCare": 10,
+            "specialist": 50,
+            "outOfNetwork": 50
+        },
+        "deductibleAmount": 0,
+        "descr": "BC/BS Copay has you and your family covered for all your needs no deductible",
+        "benefitsDetails": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum debitis, sit iusto alias magni illum sed sequi labore aliquam sint, blanditiis officia consequuntur eius! Recusandae possimus laudantium in alias? Cumque."
+    }
+]

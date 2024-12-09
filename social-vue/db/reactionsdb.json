@@ -1,0 +1,37 @@
+[
+    {
+        "reactionId": 0,
+        "reaction": "👍",
+        "type": "Like"
+    },
+    {
+        "reactionId": 1,
+        "reaction": "🤣",
+        "type": "Hah"
+    },
+    {
+        "reactionId": 2,
+        "reaction": "❤️",
+        "type": "Love"
+    },
+    {
+        "reactionId": 3,
+        "reaction": "😍",
+        "type": "Swoon"
+    },
+    {
+        "reactionId": 4,
+        "reaction": "😡",
+        "type": "Angry"
+    },
+    {
+        "reactionId": 5,
+        "reaction": "😒",
+        "type": "Meh"
+    },
+    {
+        "reactionId": 6,
+        "reaction": "🥵",
+        "type": "Sweating"
+    }
+]

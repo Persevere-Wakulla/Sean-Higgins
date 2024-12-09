@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: desmodus;
+    src: url(/desmodus/Desmodus.otf);
+}
+
+@font-face {
+    font-family: ben;
+    src: url(/Bengrraas/Bengrraas-Light.otf);
+}
+
+:root{
+    font-family: ben;
+}
+
+input {
+    line-height: 2;
+    padding-left: 6px;
+}

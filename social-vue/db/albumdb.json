@@ -1,0 +1,32 @@
+[
+    {
+        "albumId": 1,
+        "userId": 100,
+        "albumName": "Into The Wild",
+        "albumCover": "/src/assets/camping/cabin.jpg",
+        "albumPictures": [],
+        "albumLikes": [200],
+        "dateCreated": 1708451806275,
+        "lastUpdated": null
+    },
+    {
+        "albumId": 2,
+        "userId": 200,
+        "albumName": "Somewhere over the Rainbow",
+        "albumCover": "/src/assets/camping/a-fire-by-the-lake.jpg",
+        "albumPictures": [],
+        "albumLikes": [100, 666],
+        "dateCreated": 1708451806275,
+        "lastUpdated": null
+    },
+    {
+        "albumId": 3,
+        "userId": 200,
+        "albumName": "Bounding through space",
+        "albumCover": "/src/assets/camping/canoe-paddler-silhouette.jpg",
+        "albumPictures": [],
+        "albumLikes": [100, 666, 342, 34355, 233,112,111],
+        "dateCreated": 1708451806275,
+        "lastUpdated": null
+    }
+]

@@ -1,0 +1,10 @@
+query getSubscriberTickerData($ticker: WatchTicker!) {
+	getSubscriberTickerData(ticker: $ticker) {
+        purchasePrice
+        shares
+        symbol
+        subscriber {
+            _id
+        }
+	}
+}

@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Subscriber {
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
+  email    String   @unique
+  name     String?
+  password String
+  salt     String
+  watching Ticker[]
+}
+
+model Ticker {
+  id           String      @id @default(auto()) @map("_id") @db.ObjectId
+  symbol       String
+  name         String
+  industry     String
+  ipoyear      String
+  sector       String
+  marketCap    String
+  Subscriber   Subscriber? @relation(fields: [subscriberId], references: [id])
+  subscriberId String?     @db.ObjectId
+  history      History[]
+}
+
+model History {
+  id            String  @id @default(auto()) @map("_id") @db.ObjectId
+  Ticker        Ticker? @relation(fields: [tickerId], references: [id])
+  tickerId      String? @db.ObjectId
+  latestTime    String
+  latestVolume  BigInt
+  previousClose Float
+  volume        BigInt
+  close         Float
+  low           Float
+  latestPrice   Float
+  change        Float
+  changePercent Float
+}

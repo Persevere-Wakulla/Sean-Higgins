@@ -1,0 +1,19 @@
+{
+    "name": "stock_price_retrieval",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+      "dev": "node main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "node-schedule": "2.1.1",
+		"dayjs": "1.11.12",
+        "cron": "3.2.1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  

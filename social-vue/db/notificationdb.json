@@ -1,0 +1,14 @@
+[
+    {
+        "userId": 100,
+        "notificationId": 1,
+        "msg": "James tagged you",
+        "isRead" : false
+    }, {
+        "userId": 100,
+        "notificationId": 2,
+        "msg": "You updated your relationship status to Single",
+        "isRead" : false
+    }
+    
+]

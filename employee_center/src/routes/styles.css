@@ -1,0 +1,64 @@
+@import 'tailwind.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import '@fontsource/fira-mono';
+
+@font-face {
+  font-family: audie;
+  src: url('../lib/assets/Audie.woff');
+}
+@font-face {
+  font-family: bell;
+  src: url('../lib/assets/Bellquinas.woff');
+}
+
+@font-face {
+  font-family: ben-bold;
+  src: url('../lib/assets/bengrraas-bold.woff');
+}
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+*,::before,::after{
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+}
+
+:root {
+	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--font-mono: ben-bold;
+	--color-text: rgba(0, 0, 0, 0.7);
+	--column-width: 42rem;
+	--column-margin-top: 4rem;
+    --bg-card: hsl(180, 1%, 15%);
+    --accent-font-color: hsl(180, 51%, 51%);
+    --main-side-content-bg: rgb(91, 98, 112);
+
+	--sidebar-hover-color: rgb(224, 226, 231);
+    --sidebar-a-color: rgb(47, 40, 40);
+    --sidebar-text-shadow: 0 4px 4px rgba(84, 84, 84, 0.661);
+    --sidebar-letter-spacing-a: 4px;
+    --sidebar-bg: hsl(219, 36%, 62%);
+    --sidebar-max-width: 250px;
+    --sidebar-toggle-icon-color: rgb(249, 226, 155);
+
+	font-family: var(--font-mono);
+	color: var(--color-text);
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+
+input {
+    padding: 0.25rem;
+    border: none;
+    border-bottom: 1px solid rgba(54, 53, 53, 0.178);
+    width: 100%;
+  }
+
+  input:focus {
+    outline-color: rgba(54, 53, 53, 0.178);
+  }

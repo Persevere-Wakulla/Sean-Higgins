@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Sophia Brown",
+    "employeeId": 3,
+    "week": "08/11/2024",
+    "processedOn": "2024-08-16T11:35:05.590Z",
+    "batchId": "d6613bbf-482b-4773-afa2-1d21cadfa4aa",
+    "totalPay": 2853.99792,
+    "basePay": 4054.7115384615386,
+    "taxes": 856.3550769230769,
+    "socialSecurity": 182.17008,
+    "stockContribution": 162.18846153846155,
+    "ssn": "638-461-822",
+    "title": "Accountant",
+    "company": "Schiller - Zieme",
+    "employeeAddress": {
+      "street": "1642 Ninth Street",
+      "city": "Washington",
+      "state": "AL",
+      "zip": "32822"
+    },
+    "payCheckId": 1
+  },
+  {
+    "name": "Emma Miller",
+    "employeeId": 5,
+    "week": "08/11/2024",
+    "processedOn": "2024-08-16T11:35:05.590Z",
+    "batchId": "d6613bbf-482b-4773-afa2-1d21cadfa4aa",
+    "totalPay": 2952.215136,
+    "basePay": 4194.25,
+    "taxes": 885.8256,
+    "socialSecurity": 188.43926399999998,
+    "stockContribution": 167.77,
+    "ssn": "526-210-885",
+    "title": "Quality Assurance Engineer",
+    "company": "Graham - Gulgowski",
+    "employeeAddress": {
+      "street": "607 Fourth Street",
+      "city": "Jacksonville",
+      "state": "CO",
+      "zip": "26593"
+    },
+    "payCheckId": 2
+  },
+  {
+    "name": "James Davis",
+    "employeeId": 4,
+    "week": "08/11/2024",
+    "processedOn": "2024-08-16T15:02:07.502Z",
+    "batchId": "c222abfe-68b4-4571-bc6b-fcac8804b952",
+    "totalPay": 2552.903136,
+    "basePay": 3626.9423076923076,
+    "taxes": 766.0102153846153,
+    "socialSecurity": 162.951264,
+    "stockContribution": 145.0776923076923,
+    "contributionPercentage": 4,
+    "ssn": "116-951-314",
+    "title": "Research Analyst",
+    "company": "Pagac and Sons",
+    "employeeAddress": {
+      "street": "238 Jefferson Street",
+      "city": "Seattle",
+      "state": "PA",
+      "zip": "68354"
+    },
+    "payCheckId": 2
+  },
+  { "payCheckId": 2 }
+]

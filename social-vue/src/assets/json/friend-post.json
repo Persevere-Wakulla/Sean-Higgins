@@ -1,0 +1,65 @@
+{
+    "posts": [
+        {
+            "postId": 1,
+            "user": "jeanette",
+            "picSrc": "/src/assets/image-jeanette.jpg",
+            "message": "Sometimes I just wish I wasn't that bitch, you know",
+            "like": 50,
+            "love": 609,
+            "dislike": 0,
+            "time": "Right Now",
+            "responses": [{
+                "postId":1,
+                "childPostId": 2, 
+                "user": "patrick",
+                "picSrc": "/src/assets/image-patrick.jpg",
+                "message": "I love you, notice me senpai",
+                "like": 0,
+                "love": 0,
+                "dislike": 50,
+                "time": "Before she even posted"
+            },{
+                "postId":1,
+                "childPostId": 3, 
+                "user": "kira",
+                "picSrc": "/src/assets/image-kira.jpg",
+                "message": "Girl you already know",
+                "like": 435,
+                "love": 111,
+                "dislike": 0,
+                "time": "2 minutes ago"
+            }]
+        },
+        {
+            "postId": 2,
+            "user": "kira",
+            "picSrc": "/src/assets/image-kira.jpg",
+            "message": "Like if you should be my new boo",
+            "like": 876,
+            "love": 577,
+            "dislike": 0,
+            "time": "2 seconds ago"
+        },
+        {
+            "postId": 3,
+            "user": "kira",
+            "picSrc": "/src/assets/image-kira.jpg",
+            "message": "Lol I should get a new man",
+            "like": 465,
+            "love": 687,
+            "dislike": 1,
+            "time": "2 seconds ago"
+        },
+        {
+            "postId": 4,
+            "user": "joseph",
+            "picSrc": "/src/assets/joseph.png",
+            "message": "Should I get with Kira?",
+            "like": 32,
+            "love": 1,
+            "dislike": 41,
+            "time": "10 minutes ago"
+        }
+    ]
+}

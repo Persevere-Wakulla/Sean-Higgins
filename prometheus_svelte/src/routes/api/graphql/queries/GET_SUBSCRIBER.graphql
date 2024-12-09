@@ -1,0 +1,31 @@
+query getSubscriber($id: String!) {
+	getSubscriber(id: $id) {
+		_id
+		username
+		liquidCash
+		portfolioValue
+		openOrderCashHold
+		stocksOwned {
+			symbol
+			shares
+			purchasePrice
+			purchaseAmount
+			winLossAmount
+			todaysGain
+			currentValue
+			stockDailyPrice {
+				previousClose
+				close
+			}
+		}
+		stocksWatched {
+			symbol
+			name
+			history {
+				date
+				close
+				previousClose
+			}
+		}
+	}
+}

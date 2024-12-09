@@ -1,0 +1,8 @@
+subscription OnWatchlistUpdated {
+    watchlistUpdated {
+        _id
+        stocksWatched {
+            symbol
+        } 
+    }
+}

@@ -1,0 +1,8 @@
+mutation addWatchlist($watchTicker: WatchTicker){
+    addWatchlist(watchTicker: $watchTicker) {
+        _id
+        stocksWatched {
+            symbol
+        }
+    }
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "userId": 100,
+        "friendId": 200,
+        "friendFirstName": "Jeanette",
+        "friendLastName": "Walker",
+        "picSrc": "/src/assets/image-jeanette.jpg"
+    },
+    {
+        "userId": 100,
+        "friendId": 111,
+        "friendFirstName": "Kira",
+        "friendLastName": "Macklin",
+        "picSrc": "/src/assets/image-kira.jpg"
+    },
+    {
+        "userId": 1,
+        "friendId": 111,
+        "friendFirstName": "Kira",
+        "friendLastName": "Macklin",
+        "picSrc": "/src/assets/image-kira.jpg"
+    },
+    {
+        "userId": 1,
+        "friendId": 201,
+        "friendFirstName": "Patrick",
+        "friendLastName": "Star",
+        "picSrc": "/src/assets/image-patrick.jpg"
+    },
+    {
+        "userId": 100,
+        "friendId": 666,
+        "friendFirstName": "Patrick",
+        "friendLastName": "Star",
+        "picSrc": "/src/assets/image-patrick.jpg"
+    },
+    {
+        "userId": 111,
+        "friendId": 100,
+        "friendFirstName": "Sean",
+        "friendLastName": "Higgins",
+        "picSrc": "/src/assets/default.jpg"
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "userId": 1,
+        "userName": "isleepstandingup",
+        "password": "IWontRemember",
+        "picSrc": "/src/assets/joseph.png",
+        "firstName": "Sean",
+        "lastName": "Higgins"
+    },
+    {
+        "userId": 2,
+        "userName": "goldmouth",
+        "password": "peacebewithyou",
+        "picSrc": "/src/assets/black-dog-panting-in-doorway.jpg",
+        "firstName": "Brian",
+        "lastName": "Formman"
+    },
+    {
+        "userId": 100,
+        "userName": "spaeth21",
+        "picSrc": "/src/assets/default.jpg",
+        "password": "anthony21",
+        "email": "sean.higgins1987@gmail.com",
+        "city": "",
+        "street": "",
+        "zip": "",
+        "phone": "654-8798",
+        "firstName": "Sean",
+        "lastName": "Higgins"
+    },
+    {
+        "userId": 111,
+        "userName": "kira",
+        "picSrc": "/src/assets/image-kira.jpg",
+        "password": "kira",
+        "email": "thebabykira@gmail.com",
+        "city": "",
+        "street": "",
+        "zip": "",
+        "phone": "654-8798",
+        "firstName": "Kira",
+        "lastName": "The Baby"
+    },
+    {
+        "userId": 200,
+        "userName": "thatGirlJeanette",
+        "picSrc": "/src/assets/default.jpg",
+        "password": "thatGirl",
+        "email": "thatgirljeanette@gmail.com",
+        "city": "",
+        "street": "",
+        "zip": "",
+        "phone": "654-8798",
+        "firstName": "That Girl",
+        "lastName": "Jeanette"
+    },
+    {
+        "userName": "justinTime",
+        "picSrc": "/src/assets/default.jpg",
+        "password": "password123",
+        "email": "justinthegod@gmail.com",
+        "city": "",
+        "street": "",
+        "zip": "",
+        "phone": "",
+        "firstName": "Justin",
+        "lastName": "YaBoy",
+        "userId": 201
+    }
+]

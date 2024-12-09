@@ -1,0 +1,5 @@
+mutation stockAction($stockSale: StockSale){
+    stockAction(stockSale: $stockSale) {
+        shares
+    }
+}

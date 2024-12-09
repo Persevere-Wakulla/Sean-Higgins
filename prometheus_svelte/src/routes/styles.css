@@ -1,0 +1,27 @@
+@font-face {
+	font-family: desmodus;
+	src: url(../lib/images/Desmodus/Desmodus.otf);
+}
+@font-face {
+	font-family: bengrass;
+	src: url(../lib/images/Bengrraas/Bengrraas-Light.otf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    font-family: bengrass;
+}
+
+input {
+    line-height: 2;
+    padding-left: 6px;
+}
+
+@layer utilities {
+	
+
+}

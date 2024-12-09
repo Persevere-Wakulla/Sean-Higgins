@@ -1,0 +1,7 @@
+{
+    "serverConfig" : {
+        "port": 3000,
+        "prefix": "/api",
+        "auth": "mySecret"
+    }
+}

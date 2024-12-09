@@ -1,0 +1,131 @@
+type Ticker {
+	_id: String
+	name: String!
+	symbol: String!
+	country: String
+	industry: String
+	sector: String
+    history: [TickerHistory]
+}
+
+type TickerHistory {
+    symbol: String
+    date: String
+    latestVolume: Float
+    previousClose: Float
+    volume: Float
+    low: Float
+    high: Float
+    latestPrice: Float
+    close: Float
+    open: Float
+    changePercent: Float
+    change: Float
+}
+
+type Subscriber {
+	_id: String
+	username: String!
+	password: String!
+	email: String
+	phone: String
+    publicPortfolio: Boolean
+    portfolioValue: Float
+    winningPercentage: Float
+    dailyGain: Float
+	friends: [Friendship]
+	stocksWatched: [Ticker]
+    orders: [Order]
+    stocksOwned: [Owned]
+    liquidCash: Float
+    openOrderCashHold: Float
+}
+
+type CreateSubscriber {
+    msg: String!
+    password: String
+    error: String
+    field: String
+    subscriber: Subscriber
+}
+
+type Friendship {
+    connectedOn: String,
+    friendA: Subscriber!
+    friendB: Subscriber!
+}
+
+type Owned {
+    symbol: String
+    shares: Float!
+    purchasePrice: Float!
+    purchaseAmount: Float!
+    winLossAmount: Float
+    currentValue: Float
+    todaysGain: Float
+    isShort: Boolean
+    history: [Transaction]
+    stockDailyPrice: TickerHistory
+    bySubsciber: [Subscriber]
+}
+
+type OwnedTickerData {
+    purchasePrice: Float
+    symbol: String
+    shares: Float
+    subscriber: Subscriber
+}
+
+
+type Transaction {
+    stock: Ticker
+    shares: Float
+    date: String
+    price: Float
+}
+
+type Order {
+    ticker: Ticker!
+    orderType: String!
+    limitPrice: Float
+    goodTill: String
+    submittedOn: String
+}
+
+input RegisterSubscriber {
+    confirmPassword: String!
+    password: String!
+    username: String!
+    email: String!
+}
+
+input FilterTicker {
+	name: String
+	symbol: String
+}
+input WatchTicker {
+    subscriber: String!
+    symbol: String!
+}
+input StockSale {
+    action: String!
+    tradeType: String!
+    symbol: String!
+    shares: Float!
+    price: Float!
+    subscriber: String!
+    goodTillDate: String
+    goodTillType: Int
+}
+type Query {
+	getSubscriber(id:String!, filter: FilterTicker): Subscriber
+	getSubscriberTickerData(ticker: WatchTicker! ): OwnedTickerData
+}
+type Mutation {
+    register(registration: RegisterSubscriber!):CreateSubscriber
+    addWatchlist(watchTicker: WatchTicker): Subscriber
+    stockAction(stockSale: StockSale): OwnedTickerData
+}
+type Subscription {
+    watchlistUpdated: Subscriber
+}

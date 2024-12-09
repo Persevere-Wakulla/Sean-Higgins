@@ -1,0 +1,12 @@
+mutation register($registration: RegisterSubscriber!){
+    register(registration: $registration) {
+        msg
+        error
+        field
+        password
+        subscriber {
+            _id
+            username
+        }
+    }
+}
