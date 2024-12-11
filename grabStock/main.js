@@ -18,7 +18,7 @@ const getPrevDayCloses = async (symbols) => {
 				const pauseTime = new Promise((resolve) => {
 					setTimeout(() => {
 						resolve(true);
-					}, 1000);
+					}, 2000);
 				});
 				const symbol = symbols[index];
 				console.dir(symbol);
@@ -27,14 +27,14 @@ const getPrevDayCloses = async (symbols) => {
 			}
 			await writeToLog({
 				status: 'Completed',
-				date: dayjs(new Date()).startOf('day').toDate(),
+				date: new Date(),
 				path: logFilePath,
 				data: logData
 			})
 		} catch (err) {
 			await writeToLog({
 				status: 'Failed',
-				date: dayjs(new Date()).startOf('day').toDate(),
+				date: new Date(),
 				msg: err,
 				path: logFilePath,
 				data: logData
@@ -47,16 +47,30 @@ const getPrevDayCloses = async (symbols) => {
 };
 
 const retrieveStockerTickerData = async (symbol, dailyHistoryPath, cb) => {
-	const res = await fetch(`http://192.168.1.45:3000/stocks/${symbol}`);
-	const body = await res.text();
-	if (!body.includes('Unknown symbol')) {
-		const json = JSON.parse(
-			body.slice(0, body.lastIndexOf('"')).replace('"', '').replaceAll('\\', '')
-		);
-		await appendDataAsync(dailyHistoryPath, json)
-		if (cb) {
-			return await cb(symbol);
+	try {
+		const res = await fetch(`http://192.168.1.45:3000/stocks/${symbol}`);
+		const body = await res.text();
+		if (!body.includes('Unknown symbol')) {
+			const json = JSON.parse(
+				body.slice(0, body.lastIndexOf('"')).replace('"', '').replaceAll('\\', '')
+			);
+			await appendDataAsync(dailyHistoryPath, json)
+			if (cb) {
+				return await cb(symbol);
+			}
 		}
+	}
+	catch (err) {
+		const { logFilePath, logData } = await checkLog();
+
+		await writeToLog({
+			status: 'Failed',
+			date: new Date(),
+			msg: err,
+			path: logFilePath,
+			data: logData
+		})
+		console.dir(err);
 	}
 };
 
@@ -167,7 +181,7 @@ const main = async () => {
 
 
 const job = new CronJob(
-	'30 0 * * *', // cronTime
+	'30 18 * * *', // cronTime
 	main, // onTick
 	null, // onComplete
 	true, // start so that it starts right away

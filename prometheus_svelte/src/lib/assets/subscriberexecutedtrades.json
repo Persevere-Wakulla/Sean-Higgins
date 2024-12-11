@@ -1,0 +1,231 @@
+[{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "MARA",
+  "dateExecuted": {
+    "$date": "2024-12-03T13:09:07.039Z"
+  },
+  "shares": 700,
+  "price": 12,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231f952"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "LAC",
+  "dateExecuted": {
+    "$date": "2024-12-03T13:28:44.235Z"
+  },
+  "shares": 250,
+  "price": 3.85,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd8223205da"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "ARKF",
+  "dateExecuted": {
+    "$date": "2024-12-03T13:32:47.526Z"
+  },
+  "shares": 500,
+  "price": 16,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "6716398a1d199daac8ba39a5"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "ARKK",
+  "dateExecuted": {
+    "$date": "2024-12-03T14:09:56.844Z"
+  },
+  "shares": 100,
+  "price": 40,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "671104caaf7695561c1a97af"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "JMIA",
+  "dateExecuted": {
+    "$date": "2024-12-03T14:11:27.213Z"
+  },
+  "shares": 250,
+  "price": 3.87,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd82232057c"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "JMIA",
+  "dateExecuted": {
+    "$date": "2024-12-03T14:11:35.653Z"
+  },
+  "shares": 250,
+  "price": 4.3,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd82232057c"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "FLG",
+  "dateExecuted": {
+    "$date": "2024-12-03T14:12:37.758Z"
+  },
+  "shares": 100,
+  "price": 10,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "67334850f12ad17f7a0ea8aa"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "PLUG",
+  "dateExecuted": {
+    "$date": "2024-12-03T14:13:38.718Z"
+  },
+  "shares": 750,
+  "price": 2.3,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231fbb6"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "LAC",
+  "dateExecuted": {
+    "$date": "2024-12-03T16:09:44.093Z"
+  },
+  "shares": 500,
+  "price": 3.95,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd8223205da"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "OTLY",
+  "dateExecuted": {
+    "$date": "2024-12-03T16:11:09.225Z"
+  },
+  "shares": 2000,
+  "price": 0.72,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231fb33"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "OTLY",
+  "tradeBatchId": "17a8de83-1ba0-4933-9d9f-5c7f2374707d",
+  "dateExecuted": {
+    "$date": "2024-12-03T19:12:00.019Z"
+  },
+  "shares": 2000,
+  "price": 0.72,
+  "isLiquidation": true,
+  "tradeType": "Limit",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231fb33"
+  },
+  "action": "Sell"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "LAC",
+  "dateExecuted": {
+    "$date": "2024-12-04T12:32:36.944Z"
+  },
+  "shares": 500,
+  "price": 3.88,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd8223205da"
+  },
+  "action": "Sell"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "LAC",
+  "dateExecuted": {
+    "$date": "2024-12-06T14:05:23.177Z"
+  },
+  "shares": 500,
+  "price": 3.53,
+  "isLiquidation": false,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd8223205da"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "ME",
+  "dateExecuted": {
+    "$date": "2024-12-06T16:02:08.978Z"
+  },
+  "shares": 500,
+  "price": 3.61,
+  "isLiquidation": false,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231f985"
+  },
+  "action": "Buy"
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "ME",
+  "dateExecuted": {
+    "$date": "2024-12-09T12:31:15.097Z"
+  },
+  "shares": 500,
+  "price": 4.05,
+  "isLiquidation": true,
+  "tradeType": "Market",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231f985"
+  },
+  "action": "Sell"
+}]

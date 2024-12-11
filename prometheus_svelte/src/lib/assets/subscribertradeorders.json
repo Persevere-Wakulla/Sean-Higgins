@@ -1,0 +1,332 @@
+[{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "MARA",
+  "tradeOrderId": "8f3dd633-51b3-438d-b4ab-1d8c9848032d",
+  "datePlaced": {
+    "$date": "2024-12-03T13:09:07.032Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 700,
+  "price": 12,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231f952"
+  },
+  "expired": false
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "LAC",
+  "tradeOrderId": "46a4ab38-f310-4fac-ae46-15c69cc31f61",
+  "datePlaced": {
+    "$date": "2024-12-03T13:28:40.655Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 250,
+  "price": 3.85,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd8223205da"
+  },
+  "expired": false
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "ARKF",
+  "tradeOrderId": "0bd1607c-e360-4f17-bbac-d981c5d17cd2",
+  "datePlaced": {
+    "$date": "2024-12-03T13:32:47.522Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 500,
+  "price": 16,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "6716398a1d199daac8ba39a5"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "ARKK",
+  "tradeOrderId": "0768452b-006d-4a19-acfc-c3de5183e188",
+  "datePlaced": {
+    "$date": "2024-12-03T14:09:54.538Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 100,
+  "price": 40,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "671104caaf7695561c1a97af"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "JMIA",
+  "tradeOrderId": "ca88b0a4-903b-4c52-ad62-093f07843d8b",
+  "datePlaced": {
+    "$date": "2024-12-03T14:11:27.209Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 250,
+  "price": 3.87,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd82232057c"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "JMIA",
+  "tradeOrderId": "88c084d7-bb37-4638-9b87-31e0c83962f3",
+  "datePlaced": {
+    "$date": "2024-12-03T14:11:35.649Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 250,
+  "price": 4.3,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd82232057c"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "FLG",
+  "tradeOrderId": "3b4a9fb2-e24f-4ff9-a77c-858e8a7f08e9",
+  "datePlaced": {
+    "$date": "2024-12-03T14:12:37.755Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 100,
+  "price": 10,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "67334850f12ad17f7a0ea8aa"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "PLUG",
+  "tradeOrderId": "16df0d1e-7da3-4114-94ae-c5e1ee729e40",
+  "datePlaced": {
+    "$date": "2024-12-03T14:13:38.715Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 750,
+  "price": 2.3,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231fbb6"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "LAC",
+  "tradeOrderId": "bbae64f4-1361-4aca-a798-649deeb15ead",
+  "datePlaced": {
+    "$date": "2024-12-03T16:09:44.087Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 500,
+  "price": 3.95,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd8223205da"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "OTLY",
+  "tradeOrderId": "96b6bd1c-3195-4f4c-82b6-59d110fc6622",
+  "datePlaced": {
+    "$date": "2024-12-03T16:11:09.222Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "shares": 2000,
+  "price": 0.72,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231fb33"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "BLDE",
+  "tradeOrderId": "3ac31966-9bdc-4413-aee0-edfa7fdd5f54",
+  "datePlaced": {
+    "$date": "2024-12-03T16:56:27.230Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": 1,
+  "shares": 500,
+  "price": 4.05,
+  "executed": false,
+  "tradeType": "Limit",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231f2c5"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "OTLY",
+  "tradeOrderId": "5d3b811d-17e0-4176-94ce-32c5b2912611",
+  "datePlaced": {
+    "$date": "2024-12-01T19:10:59.120Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": 1,
+  "expired": false,
+  "shares": 2000,
+  "price": 0.72,
+  "executed": true,
+  "tradeType": "Limit",
+  "action": "Sell",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231fb33"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "LAC",
+  "tradeOrderId": "6f366f10-2dde-4c86-8623-b0b05a6853f7",
+  "datePlaced": {
+    "$date": "2024-12-04T12:32:36.937Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "expired": false,
+  "shares": 500,
+  "price": 3.88,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Sell",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd8223205da"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "LAC",
+  "tradeOrderId": "a01d97ee-8c06-4ef3-883f-3f27d93c5b83",
+  "datePlaced": {
+    "$date": "2024-12-06T14:05:23.167Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "expired": false,
+  "shares": 500,
+  "price": 3.53,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "670565a3ec8fbfd8223205da"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "ME",
+  "tradeOrderId": "62d4b233-e66f-4b24-aeb7-45a53a08ce94",
+  "datePlaced": {
+    "$date": "2024-12-06T16:02:08.970Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "expired": false,
+  "shares": 500,
+  "price": 3.61,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Buy",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231f985"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "ME",
+  "tradeOrderId": "b6db7505-03b8-4e89-a373-9e4128e42bc4",
+  "datePlaced": {
+    "$date": "2024-12-09T12:31:08.583Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "expired": false,
+  "shares": 0,
+  "price": 4.05,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Sell",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231f985"
+  }
+},{
+  "subscriber": {
+    "$oid": "670fadcfeff2cdf0f428e6a9"
+  },
+  "symbol": "ME",
+  "tradeOrderId": "b408e95f-497e-4cdb-bf88-ea50dae564f3",
+  "datePlaced": {
+    "$date": "2024-12-09T12:31:15.091Z"
+  },
+  "goodTillDate": null,
+  "goodTillType": null,
+  "expired": false,
+  "shares": 500,
+  "price": 4.05,
+  "executed": true,
+  "tradeType": "Market",
+  "action": "Sell",
+  "ticker": {
+    "$oid": "67056596ec8fbfd82231f985"
+  }
+}]
